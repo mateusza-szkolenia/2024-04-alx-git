@@ -38,3 +38,18 @@ Zatwierdzenie zmian.
 
 - `git commit -m "Wiadomość"` - natychmiastowe zatwierdzenie, bez uruchamiania edytora
 
+## `tig`
+
+Tig to pomocniczy program służący do przegladania historii gita. Jest domyślnie instalowany w pakiecie *Git for Windows*
+
+### `tig nazwapliku.c`
+
+Pokazuje historię danego pliku (tylko commity zmieniające ten plik)
+
+### `tig blame nazwapliku.c`
+
+Pokazuje kto i kiedy (w jakim commicie) dodał daną linię tekstu.
+
+### `tig --all`
+
+Pokazuje wszystkie dostępne gałęzie.
