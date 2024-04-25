@@ -147,3 +147,7 @@ Pokazuje wszystkie dostępne gałęzie.
 Tworzenie klucza: `ssh-keygen`
 
 Wyświetlanie klucza publicznego: `cat ~/.ssh/id_25519.pub`
+
+## bash
+
+Znajdowanie poprzedniego polecenia `ctrl + r`
