@@ -101,7 +101,16 @@ Automatycznie czyszczony co 60 dni. (chyba)
 
 ## `tig`
 
+Strona domowa: <http://jonas.github.io/tig/>
+
 Tig to pomocniczy program służący do przegladania historii gita. Jest domyślnie instalowany w pakiecie *Git for Windows*
+
+### nawigacja
+
+- przesuwanie widoku zmian: `j` `k`
+- tryb blame: `b`
+- tryb drzewa: `t`
+- wyjście: `q`
 
 ### `tig nazwapliku.c`
 
@@ -110,6 +119,10 @@ Pokazuje historię danego pliku (tylko commity zmieniające ten plik)
 ### `tig blame nazwapliku.c`
 
 Pokazuje kto i kiedy (w jakim commicie) dodał daną linię tekstu.
+
+### `tig 0a010a01`
+
+Pokazuje wskazany commit i jego historię.
 
 ### `tig --all`
 
