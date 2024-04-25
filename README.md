@@ -38,6 +38,10 @@ Zatwierdzenie zmian.
 
 - `git commit -m "Wiadomość"` - natychmiastowe zatwierdzenie, bez uruchamiania edytora
 
+### `git branch`
+
+Stworzenie gałęzi.
+
 ## `tig`
 
 Tig to pomocniczy program służący do przegladania historii gita. Jest domyślnie instalowany w pakiecie *Git for Windows*
