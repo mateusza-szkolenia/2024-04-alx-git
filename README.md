@@ -1,5 +1,11 @@
 # Szkolenie z gita
 
+## Prowadzący
+
+Mateusz Adamowski
+
+Strona internetowa: <https://mateusza-szkolenia.github.io/>
+
 ## Instalacja
 
 Windows: <https://git-scm.com/download/win>
