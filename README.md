@@ -50,6 +50,13 @@ Przełączanie się między gałęziami.
 
 Scalanie zmian.
 
+#### Rozwiązywanie konflików scalania
+
+1. Przeedytować pliki z konfliktami. Rozwiązać konflikty ręcznie.
+2. `git add .`
+3. `git merge --continue`
+
+
 ### `git config`
 
 Konfiguracja gita. Należy wykonać ten krok jednorazowo przed pierwszym commitem.
