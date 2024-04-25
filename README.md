@@ -38,6 +38,18 @@ Zatwierdzenie zmian.
 
 - `git commit -m "Wiadomość"` - natychmiastowe zatwierdzenie, bez uruchamiania edytora
 
+### `git branch`
+
+Stworzenie gałęzi.
+
+### `git switch`
+
+Przełączanie się między gałęziami.
+
+### `git merge`
+
+Scalanie zmian.
+
 ### `git config`
 
 Konfiguracja gita. Należy wykonać ten krok jednorazowo przed pierwszym commitem.
