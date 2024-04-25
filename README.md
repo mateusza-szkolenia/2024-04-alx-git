@@ -8,7 +8,19 @@ Strona internetowa: <https://mateusza-szkolenia.github.io/>
 
 ## Instalacja
 
-Windows: <https://git-scm.com/download/win>
+### Windows
+
+<https://git-scm.com/download/win>
+
+### macOS
+
+- dostępny w paczce [XCode](https://developer.apple.com/xcode/)
+- `brew install git`
+
+### Linux
+
+- Debian, Ubuntu: `apt-get install git tig`
+- EL: `dnf install git`
 
 ## Podstawowe polecenia
 
