@@ -42,6 +42,11 @@ Zatwierdzenie zmian.
 
 Stworzenie gałęzi.
 
+### `git switch`
+
+Przełączanie się między gałęziami.
+
+
 ## `tig`
 
 Tig to pomocniczy program służący do przegladania historii gita. Jest domyślnie instalowany w pakiecie *Git for Windows*
