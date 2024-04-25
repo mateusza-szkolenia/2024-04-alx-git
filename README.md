@@ -141,3 +141,9 @@ Pokazuje wskazany commit i jego historię.
 ### `tig --all`
 
 Pokazuje wszystkie dostępne gałęzie.
+
+## SSH
+
+Tworzenie klucza: `ssh-keygen`
+
+Wyświetlanie klucza publicznego: `cat ~/.ssh/id_25519.pub`
