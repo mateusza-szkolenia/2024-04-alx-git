@@ -87,6 +87,10 @@ Scalanie zmian.
     - edycję opisów commitów
     - itp
 
+### `git reset --hard XXXXXXX`
+
+Przywrócenie bieżącej gałęzi do dowolnego wybranego stanu. (Najczęściej sprzed merge, rebase itp)
+
 #### Rozwiązywanie konflików scalania
 
 1. Przeedytować pliki z konfliktami. Rozwiązać konflikty ręcznie.
