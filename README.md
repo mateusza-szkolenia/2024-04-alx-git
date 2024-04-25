@@ -44,6 +44,13 @@ Zatwierdzenie zmian.
 
 - `git commit -m "Wiadomość"` - natychmiastowe zatwierdzenie, bez uruchamiania edytora
 
+#### `git commit --amend` Poprawianie
+
+- `git commit --amend` - edycja opisu
+- `git commit --amend --date=now` - ustawienie bieżącej daty
+- `git commit --amend --author="Adam Mickiewicz <adam.m@example.com>"` - zmiana autora kodu
+- `git commit --amend --reset-author` - przywrócenie autorstwa na bieżącego użytkownika
+
 ### `git branch`
 
 Stworzenie gałęzi.
