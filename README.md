@@ -6,6 +6,8 @@ Mateusz Adamowski
 
 Strona internetowa: <https://mateusza-szkolenia.github.io/>
 
+Repozytorium szkolenia: <https://github.com/mateusza-szkolenia/2024-04-alx-git.git>
+
 ## Instalacja
 
 ### Windows
