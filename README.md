@@ -22,6 +22,16 @@ git init
 
 Sprawdzenie statusu zmian w bieżącym repo.
 
+### `git diff`
+
+Sprawdzenie zmian we wszystkich plikach.
+
+Lub: `git diff plik.c` - tylko w jednym pliku.
+
+Lub: `git diff *.cs` - tylko w plikach z rozszerzeniem `.cs`
+
+Opcja `--word-diff` - pokazuje zmiany wewnątrz linii zamiast całych linii.
+
 ### `git commit`
 
 Zatwierdzenie zmian.
