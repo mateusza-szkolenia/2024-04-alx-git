@@ -46,6 +46,9 @@ Stworzenie gałęzi.
 
 Przełączanie się między gałęziami.
 
+### `git merge`
+
+Scalanie zmian.
 
 ## `tig`
 
