@@ -141,3 +141,7 @@ Pokazuje wskazany commit i jego historię.
 ### `tig --all`
 
 Pokazuje wszystkie dostępne gałęzie.
+
+## bash
+
+Znajdowanie poprzedniego polecenia `ctrl + r`
