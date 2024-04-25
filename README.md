@@ -36,6 +36,8 @@ Opcja `--word-diff` - pokazuje zmiany wewnątrz linii zamiast całych linii.
 
 Zatwierdzenie zmian.
 
+- `git commit -m "Wiadomość"` - natychmiastowe zatwierdzenie, bez uruchamiania edytora
+
 ### `git config`
 
 Konfiguracja gita. Należy wykonać ten krok jednorazowo przed pierwszym commitem.
@@ -44,8 +46,6 @@ Konfiguracja gita. Należy wykonać ten krok jednorazowo przed pierwszym commite
 git config --global user.name "Imię i Nazwisko"
 git config --global user.email "imie.nazw@example.com"
 ```
-
-- `git commit -m "Wiadomość"` - natychmiastowe zatwierdzenie, bez uruchamiania edytora
 
 ## `tig`
 
