@@ -39,3 +39,7 @@ Pokazuje historię danego pliku (tylko commity zmieniające ten plik)
 ### `tig blame nazwapliku.c`
 
 Pokazuje kto i kiedy (w jakim commicie) dodał daną linię tekstu.
+
+### `tig --all`
+
+Pokazuje wszystkie dostępne gałęzie.
