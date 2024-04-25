@@ -79,6 +79,12 @@ git config --global user.name "Imię i Nazwisko"
 git config --global user.email "imie.nazw@example.com"
 ```
 
+### Reflog
+
+Rejestr referencji - dziennik wszystkich stanów gałęzi, również ulotnych - powstałych w wyniku operacji `amend` itp
+
+Automatycznie czyszczony co 60 dni. (chyba)
+
 ## `tig`
 
 Tig to pomocniczy program służący do przegladania historii gita. Jest domyślnie instalowany w pakiecie *Git for Windows*
