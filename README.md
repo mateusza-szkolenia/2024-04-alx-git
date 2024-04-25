@@ -77,6 +77,16 @@ Przełączanie się między gałęziami.
 
 Scalanie zmian.
 
+### `git rebase`
+
+1. "Przenoszenie" gałęzi w inne miejsce. (`git switch ABC-999; git rebase master`)
+2. Przepisywanie historii (`git rebase -i`), obejmujące:
+    - zmianę kolejności commitów
+    - usuwanie wybranych commitów
+    - łączenie commitów w jeden
+    - edycję opisów commitów
+    - itp
+
 #### Rozwiązywanie konflików scalania
 
 1. Przeedytować pliki z konfliktami. Rozwiązać konflikty ręcznie.
