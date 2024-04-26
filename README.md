@@ -91,6 +91,14 @@ Scalanie zmian.
 
 Przywrócenie bieżącej gałęzi do dowolnego wybranego stanu. (Najczęściej sprzed merge, rebase itp)
 
+### podpisywanie cyfrowe commitów
+
+```command
+$ git config --global user.signingkey ~/.ssh/id_ed25519.pub
+$ git config --global gpg.format ssh
+$ git config --global commit.gpgsign true
+```
+
 #### Rozwiązywanie konflików scalania
 
 1. Przeedytować pliki z konfliktami. Rozwiązać konflikty ręcznie.
