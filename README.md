@@ -159,3 +159,7 @@ Wyświetlanie klucza publicznego: `cat ~/.ssh/id_25519.pub`
 ## bash
 
 Znajdowanie poprzedniego polecenia `ctrl + r`
+
+## Pan Tadeusz
+
+> Litwo, ojczyzno moja, ty jesteś jak zdrowie
