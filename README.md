@@ -142,6 +142,12 @@ Pokazuje wskazany commit i jego historię.
 
 Pokazuje wszystkie dostępne gałęzie.
 
+## SSH
+
+Tworzenie klucza: `ssh-keygen`
+
+Wyświetlanie klucza publicznego: `cat ~/.ssh/id_25519.pub`
+
 ## bash
 
 Znajdowanie poprzedniego polecenia `ctrl + r`
