@@ -52,11 +52,23 @@ Lub: `git diff *.cs` - tylko w plikach z rozszerzeniem `.cs`
 
 Opcja `--word-diff` - pokazuje zmiany wewnątrz linii zamiast całych linii.
 
+### `git add`
+
+Dodawanie plików lub zmian do najbliższego commitu.
+
+Wycofanie dodania: `git restore`
+
 ### `git commit`
 
-Zatwierdzenie zmian.
+Zatwierdzenie zmian wcześniej dodanych przez `git add`
 
 - `git commit -m "Wiadomość"` - natychmiastowe zatwierdzenie, bez uruchamiania edytora
+- `git commit plik.cs -m "Wiadomość"` - natychmiastowe zatwierdzenie zmian w wybranym pliku, niezależne od wcześniej dodanych plików.
+
+Dodatkowe opcje:
+
+- `--author="Imię Nazwisko <imie.nazwisko@example.com>"` - wskazanie innego autora zmian (email można pominąć, jeśli autor już występuje w historii)
+- `--date=2000-01-01` - zmiana daty commitu (może być też `--date=now`)
 
 #### `git commit --amend` Poprawianie
 
@@ -115,11 +127,35 @@ git config --global user.name "Imię i Nazwisko"
 git config --global user.email "imie.nazw@example.com"
 ```
 
+### `git stash`
+
+Natychmiastowe ukrycie wszystkich niezacommitowanych zmian w bieżącym repozytorium.
+
+Zmiany znikają z plików, ale można je przywrócić później lub na innej gałęzi polecenim `git stash pop`.
+
+Zmiany będą też widoczne w grafie wyświetlanym poleceniem `tig --all`
+
+### `git tag`
+
+Nadanie taga na bieżący commit.
+
+Tagi służą głównie do oznaczania numerów wersji (wydań).
+
+Tag może być dowolnym słowem, ale wygodnie używać numerów wersji typu `v0.0.1`, `v1.2.4`
+
+Polecam lekturę dokumentu dotyczącego semantycznego wersjonowania: <https://semver.org/>
+
+Tagi można połączyć z workflowem, który będzie budował i pakował wydanie i oznaczał je numerem wersji.
+
+
 ### Reflog
 
 Rejestr referencji - dziennik wszystkich stanów gałęzi, również ulotnych - powstałych w wyniku operacji `amend` itp
 
 Automatycznie czyszczony co 60 dni. (chyba)
+
+Obsługa polecenim `git reflog`
+
 
 ## `tig`
 
