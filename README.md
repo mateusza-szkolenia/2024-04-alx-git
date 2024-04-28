@@ -160,6 +160,41 @@ Wyświetlanie klucza publicznego: `cat ~/.ssh/id_25519.pub`
 
 Znajdowanie poprzedniego polecenia `ctrl + r`
 
+## vim
+
+```mermaid
+stateDiagram-v2
+    cmd: polecenia
+    note left of cmd
+        dd - usuń linię
+        d$ - usuń do końca linii
+        dw - usuń słowo
+        cw - zmień słowo (kasuje słowo i przechodzi w tryb wpisywania)
+        G - przejdź na koniec
+    end note
+
+    ins: wpisywanie tekstu
+    cmdline: linia poleceń
+    note right of cmdline
+        w - zapisz
+        wq - zapisz i wyjdź
+        q - wyjdź (jeśli nie było zmian)
+        q! - wyjdź bez zapisywania zmian
+        42 - skocz do linii numer 42
+    end note
+
+    cmd --> ins : <kbd>i</kbd>
+    cmd --> ins : <kbd>A</kbd>
+
+    ins --> cmd : <i>&ltESC&gt</i>
+    cmdline --> cmd : <i>&ltESC&gt</i>
+    cmd --> cmd : <i>&ltESC&gt</i>
+
+
+    cmd --> cmdline : <kbd>﹕</kbd>
+```
+
+
 ## Pan Tadeusz
 
 > Litwo, ojczyzno moja, ty jesteś jak zdrowie
