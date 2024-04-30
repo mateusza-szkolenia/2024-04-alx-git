@@ -70,20 +70,32 @@ Dodatkowe opcje:
 - `--author="Imię Nazwisko <imie.nazwisko@example.com>"` - wskazanie innego autora zmian (email można pominąć, jeśli autor już występuje w historii)
 - `--date=2000-01-01` - zmiana daty commitu (może być też `--date=now`)
 
-#### `git commit --amend` Poprawianie
+#### `git commit --amend` Poprawianie ostateniego commitu
 
 - `git commit --amend` - edycja opisu
 - `git commit --amend --date=now` - ustawienie bieżącej daty
 - `git commit --amend --author="Adam Mickiewicz <adam.m@example.com>"` - zmiana autora kodu
 - `git commit --amend --reset-author` - przywrócenie autorstwa na bieżącego użytkownika
+- `git commit --no-edit` - opcja przydatna, jeśli tylko zmieniamy datę lub autora i nie chcemy zmieniać opisu.
+
+**Uwaga!** Operacja `amend` powoduje przepisanie historii, a więc może prowadzić do bałaganu w zdalnym repo, jeśli inne osoby pracują na tej samej gałęzi.
 
 ### `git branch`
 
-Stworzenie gałęzi.
+- `git branch xxxx` - stworzenie gałęzi
+- `git branch -d xxxx` - usunięcie gałęzi (tylko pod warunkiem, że była scalona)
+- `git branch -D xxxx` - usunięcie gałęzi (nawet jeśli oznacza utratę comittów)
+- `git branch` - lista gałęzi
+- `git branch -r` - lista znanych zdalnych gałęzi
+- `git remote prune origin` - wyczyszczenie zdalnych gałęzi, których nie ma już na serwerze
 
 ### `git switch`
 
 Przełączanie się między gałęziami.
+
+- `git checkout` - stare polecenie o tej samej funkcjonalności (oraz kilku innych)
+
+- `git switch -c xxxx` - utworzenie nowej gałęzi i przełączenie się na nią
 
 ### `git merge`
 
@@ -146,6 +158,10 @@ Tag może być dowolnym słowem, ale wygodnie używać numerów wersji typu `v0
 Polecam lekturę dokumentu dotyczącego semantycznego wersjonowania: <https://semver.org/>
 
 Tagi można połączyć z workflowem, który będzie budował i pakował wydanie i oznaczał je numerem wersji.
+
+### `git revert`
+
+Wycofanie zmian ze starego commita bez modyfikacji historii, czyli poprzez stworzenie kolejnego commita z odwrotnymi zmianami.
 
 
 ### Reflog
